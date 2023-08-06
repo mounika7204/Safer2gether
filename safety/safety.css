@@ -1,0 +1,45 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+h1{
+    text-align: center;
+    color:  #374176;
+}
+.box-container{
+    gap: 100px;
+}
+.box{
+    max-width: 1200px;
+    height: 100px;
+    padding: 20px;
+    padding-top: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    margin-left: 150px;
+    font-size: 22px;
+    line-height: 1.2;
+    color: white;
+    background-color: grey;
+  }
+.main{
+    display: flex;
+    margin-left: 200px;
+}
+.row1{
+    margin-right: 100px;
+}
+.row2{
+    margin-right: 100px;
+}
+.row3{
+    margin-right: 100px;
+}
+.video{
+    margin-bottom: 50px;
+    border-radius: 20px;
+}

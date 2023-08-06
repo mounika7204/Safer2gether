@@ -1,0 +1,282 @@
+/* styles.css */
+body, html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: white;
+  background: 100%;
+  height: 10vh;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.signup{
+  text-align: center;
+  justify-content: center;
+}
+.header h2{
+  text-align: left;
+}
+.header h3 {
+  text-align: right;
+  margin-left: 1300px;
+  /* margin-top: 15px; */
+  /* padding: 10px; */
+  background-color:  #374176;
+  color: white;
+  /* display: inline-block; */
+}
+
+.header h3:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.info {
+  background-color:#374176;
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+    position: relative;
+    text-align: center;
+    color: white;
+    opacity: 1;
+}
+.dashboardimg{
+  width: 100%;
+  height: 50vh;
+  opacity: 0.4;
+  background: linear-gradient(to right, rgba(55, 65, 118, 0.9) 50%, rgba(55, 65, 118, 0) 100%); /* Adjust the colors and positions as needed */
+  z-index: 1; /* Ensure the overlay appears above the image */
+}
+.gradient-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background-image: linear-gradient(to right, rgba(55, 65, 118, 0.8) 50%, rgba(55, 65, 118, 0)); */
+  background-image: linear-gradient(to right, rgba(55, 65, 118, 0.9) 40%, rgba(55, 65, 118, 0));
+  z-index: 1; /* Ensure the overlay appears above the image */
+}
+
+.animated-text {
+  /* position: absolute;
+  top: 90px;
+  left: 70px;
+  right: 200px; */
+  position: absolute;
+  top: 50px;
+  left: 30px;
+  /* transform: translate(-100%, -50%); */
+  font-size: 30px;
+  color:white;
+}
+
+.welcome-text {
+  font-size: 50px;
+  display: block; /* Make the text appear on a separate line */
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+.text{
+  font-size: 40px;
+  display: block; /* Make the text appear on a separate line */
+  margin-bottom: 10px; 
+  opacity: 1000000;
+}
+
+
+
+.text-container {
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+.info h1{
+  text-align: center;
+  color: white;
+  opacity: 0.9;
+  font-weight: 500;
+  content: center;
+  padding-top: 100px;
+  width: 100%;
+}
+.info h2{
+  color:white;
+  padding-left: 230px;
+  font-weight: 100;
+  justify-content: center;
+  text-align: center;
+padding-top: 60px;
+padding-right: 0px;
+}
+
+.help{
+  background-color: rgb(155, 155, 23);
+  width: 100%;
+  margin: auto;
+  height: 10vh;
+}
+.help h2{
+  padding-top: 20px;
+  color: white;
+  font-weight: 500;
+  text-align: center;
+}
+.optionsr1{
+  display : flex;
+  margin-top: 30px;
+}
+a {
+  text-decoration: none; /* Remove underline */
+  color: white; /* Set link text color to white */
+}
+.onlineabuse{
+  background-color:  #374176;
+  height: 8vh;
+  text-align: center;
+  margin-left: 350px;
+  width: 15%;
+  color: white;
+  text-decoration: none;
+}
+.verbalabuse{
+  background-color:  #374176;
+  height: 8vh;
+  text-align: center;
+  margin-left: 70px;
+  width: 15%;
+  color: white;
+}
+.carwrong{
+  background-color:  #374176;
+  height: 8vh;
+  text-align: center;
+  margin-left: 70px;
+  width: 15%;
+  color: white;
+}
+.optionsr2{
+  margin-top: 100px;
+  display: flex;
+}
+.emergency{
+  background-color:  #374176;
+  height: 8vh;
+  text-align: center;
+  margin-left: 350px;
+  width: 15%;
+  color: white;
+}
+.safetytips{
+  background-color:  #374176;
+  height: 8vh;
+  text-align: center;
+  margin-left: 70px;
+  width: 15%;
+  color: white;
+}
+.siren{
+  background-color:  #374176;
+  height: 8vh;
+  text-align: center;
+  margin-left: 70px;
+  width: 15%;
+  color: white;
+}
+
+.img-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+justify-content: center; /* To center the boxes horizontally */
+  
+}
+
+
+.boximg {
+  position: relative;
+  margin-top: 60px;
+  /* width: calc(33.33% - 10px); */
+  margin-left: 100px;
+  height: 35vh;
+  width: 20%;
+  perspective: 800px; /* Perspective for the 3D effect */
+  cursor: pointer;
+  border-radius: 10px;
+  overflow: hidden;
+  display: block;
+
+}
+
+.front .img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+.front,
+.back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  backface-visibility: hidden; /* Hide the backface until flipped */
+  transition: transform 0.5s; /* Add a smooth transition effect */
+  border-radius: 10px;
+}
+
+.front {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  transform: rotateY(0); /* Initially the front is visible */
+}
+
+.back {
+  background-color: #374176;
+  color:white;
+  border: 1px solid #ccc;
+  transform: rotateY(180deg); /* Initially the back is hidden */
+}
+
+.boximg:hover .front {
+  transform: rotateY(180deg); /* Flip the front to the back on hover */
+}
+
+.boximg:hover .back {
+  transform: rotateY(0); /* Flip the back to the front on hover */
+}
+.back button{
+  width: 50%;
+  height: 50px;
+  background-color: #374176;
+  color:white;
+  border: 2px solid white;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+}

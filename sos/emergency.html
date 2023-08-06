@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="emergency.css">
+    <title>Document</title>
+</head>
+<body
+<div class ="box-container">
+    <h1>Emergency</h1>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjRz6Pw0y-gpt5kTmS0o3l9chIFApL1W-5gLv3SbfMVZSf9TzFBh9QxfUvr2OaqxrWVeA&usqp=CAU" alt="cant"></img>
+</div>
+<div class="box1-container">
+    <p>This feature shares your GPS location to the nearest police stations and  emergency contacts</p>
+
+    </div>
+<div class="main">
+    <button onclick="saveContact()">Save Contacts For Emergency</button>
+</div>
+<div class="contact-list">
+  
+    <ul id="contactList">
+        <!-- Contacts will be added dynamically here -->
+    </ul>
+</div>
+<script>
+    // Function to save the contact and display it on the page
+    function saveContact() {
+        var contact = prompt("Enter the emergency contact number:");
+
+        if (contact) {
+            // Create a new list item to display the contact
+            var listItem = document.createElement("li");
+            listItem.textContent = contact;
+            listItem.addEventListener("click", function() {
+                    this.remove();
+                });
+
+            // Add the new contact to the contact list
+            var contactList = document.getElementById("contactList");
+            contactList.appendChild(listItem);
+        }
+    }
+</script>
+
+
+
+</body>
+</html>

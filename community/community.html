@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Community</h1>
+        <!-- Add navigation and user login/registration links here if needed -->
+    </header>
+
+    <main>
+        <div class="post-container">
+            <h2>Community Posts</h2>
+            <!-- Loop through posts and display them here -->
+            <div class="post">
+                <h3>Post Title</h3>
+                <p>Post content goes here...</p>
+                <div class="post-meta">
+                    <span>Posted by: User123</span>
+                    <span>Posted on: 2023-08-05</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Add a form for users to create new posts -->
+        <div class="create-post">
+            <h2>Create New Post</h2>
+            <form action="#" method="post">
+                <label for="post-title">Title:</label>
+                <input type="text" id="post-title" name="post-title" required>
+                <label for="post-content">Content:</label>
+                <textarea id="post-content" name="post-content" rows="4" required></textarea>
+                <button type="submit">Post</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

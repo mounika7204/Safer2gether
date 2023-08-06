@@ -1,0 +1,58 @@
+
+.complaint-form {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin-top: 20px; /* Add some space between the button and the form */
+    margin: auto;
+    margin-top: 100px;
+  }
+  
+  .complaint-form h2 {
+    text-align: center;
+    color: #374176;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style the textarea to be bigger */
+  .form-group textarea {
+    resize: vertical;
+    min-height: 150px; /* Adjust the height as needed */
+  }
+  
+  button[type="submit"] {
+    background-color: rgb(205, 34, 34);
+    color: white;
+    width: 200px;
+    height: 60px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-left: 550px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color:  rgb(205, 34, 34);
+  }
+
+  .textarea{
+    width: 800px;
+    height: 300px;
+  }
